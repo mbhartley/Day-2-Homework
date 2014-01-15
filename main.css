@@ -1,0 +1,61 @@
+.body {
+  font-family: 'Gudea', sans-serif;
+}
+
+.header {
+  background-image: url("images/Header Background.png");
+  background-repeat: repeat-x;
+
+  color: white;
+  height: 60px;
+}
+
+.header p {
+  margin-top: 0;
+  font-size: 16px;
+  padding-left: 35px;
+  display: inline-block;
+}
+
+.logo {
+	margin-top: -13px;
+}
+
+.face {
+	margin-top: -10px;
+	padding-left: 230px;	
+}
+
+.banner {
+  color: rgb(65,65,65);
+  font-size: 28px;
+}
+
+.container {
+  width: 960px;
+  height: 60px;
+  margin: 0 auto;
+}
+
+.header * {
+	vertical-align: middle;
+}
+
+.main {
+	background-color: rgb(242, 240, 236);
+	height: 475px;
+}
+
+.main * {
+	vertical-align: top;
+}
+.concert {
+	width: 540px;
+	margin-top: 28px;
+}
+
+.sidebar {
+	display: inline-block;
+	width: 275px;
+	height: 600px;
+}
