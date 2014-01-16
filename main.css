@@ -90,6 +90,56 @@
   margin-left: 32px;
 }
 
+.sidebar {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.box1 {
+  background-color: rgb(208, 205, 199);
+  margin-top: 32px;
+  margin-left: 10px;
+  color: rgb(255, 255, 255);
+  font-size: 62px;
+  height: 110px;
+  width: 120px;
+  display: inline-block;
+  position: relative;
+
+}
+
+.box2 {
+  background-color: rgb(208, 205, 199);
+  margin-top: 32px;
+  margin-left: 10px;
+  color: rgb(255, 255, 255);
+  font-size: 62px;
+  height: 110px;
+  width: 120px;
+  display: inline-block;
+  position: relative; 
+}
+
+.counter {
+  text-shadow: 1px 1px 1px rgb(11, 11, 11);
+  text-align: center; 
+
+}
+
+.goal {
+  text-shadow: 1px 1px 1px rgb(11, 11, 11);
+  text-align: center;
+
+  
+}
+
+
+
+
+
 
 
 
