@@ -9,10 +9,11 @@ body * {
   vertical-align: top;
 }
 
+/*HEADER BEGIN*/
+
 .header {
   background-image: url("images/header-background.png");
-  background-repeat: repeat-x;
-  
+  background-repeat: repeat-x; 
 }
 
 .container {
@@ -68,6 +69,10 @@ body * {
   margin-top: 22px;
 }
 
+/*HEADER END*/
+
+/*BANNER BEGIN*/
+
 .banner {
   color: rgb(65, 65, 65);
   padding-left: 70px;
@@ -79,74 +84,63 @@ body * {
   margin-bottom: 30px;
 }
 
+/*BANNER END*/
+
+/*MAIN BEGIN*/
+
 .main {
   background-color: rgb(242, 240, 236);
-  height: 600px;
-  margin-right: -10px;
-  margin-left: -10px;
-  
-}
-.concert {
-  width: 620px;
-  height: 380px;
-  margin-top: 32px;
-  margin-left: 32px;
-}
-
-.sidebar {
-  display: inline-block;
-  vertical-align: top;
-  margin: 0;
-  padding: 0;
   position: relative;
+  height: 540px;
 }
 
-.box {
-  background-color: rgb(208, 205, 199);
-  margin-top: 32px;
-  margin-left: 10px;
-  color: rgb(255, 255, 255);
-  font-size: 62px;
-  height: 110px;
-  width: 120px;
-  display: inline-block;
+.photo-banner {
+  color: white;
+  width: 640px;
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.5); 
+  display: block;
+}
+
+
+
+.concert-photo {
+  background-image: url("images/concert-image.jpg");
+  width: 640px;
+  height: 380px;
+}
+
+.U2 {
+  font-size: 22px;
+  position: relative;
+  line-height: 60px;
+  margin-left: 20px;
+
+}
+
+.clock{
+  margin-top: 18px;
+  margin-left: 256px;
 }
 
 .counter {
-  text-shadow: 1px 1px 1px rgb(11, 11, 11);
-  text-align: center; 
-  padding-top: 20px;
-}
-
-.goal {
-  text-shadow: 1px 1px 1px rgb(11, 11, 11);
-  text-align: center;
-  padding-top: 20px;
-}
-
-.join-button {
-  font-size: 22px;
-  color: rgb(255, 255, 255);
-  width: 260px;
-  height: 60px;
-  border: 1px solid #CB9000;
-  margin-left: 10px;
-  margin-top: 56px;
-  text-align: center;
+  font-size: 14px;
+  position: absolute;
+  margin-left:4px;
   line-height: 60px;
-  background: #fbd328; /* Old browsers */
-  background: -moz-linear-gradient(top,  #fbd328 0%, #db9723 100%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fbd328), color-stop(100%,#db9723)); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top,  #fbd328 0%,#db9723 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top,  #fbd328 0%,#db9723 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(top,  #fbd328 0%,#db9723 100%); /* IE10+ */
-  background: linear-gradient(to bottom,  #fbd328 0%,#db9723 100%); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbd328', endColorstr='#db9723',GradientType=0 ); /* IE6-9 */
-  border-radius: 4px;
-  box-shadow: 0px 5px 3px -3px rgba(200, 200, 200, 1);
-
 }
 
+.announcement-box {
+  background-color: rgb(208, 205, 199);
+  width: 640px;
+  height: 40px;
+}
+
+.announcement {
+  font-size: 14px;
+  font-style: italic;
+
+}
 
 
 
