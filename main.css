@@ -1,18 +1,18 @@
-.body {
+body {
   font-family: 'Didactic Gothic', sans-serif;
   letter-spacing: 1;
   margin: 0;
   padding: 0;
 }
 
-.body * {
+body * {
   vertical-align: top;
 }
 
 .header {
   background-image: url("images/header-background.png");
   background-repeat: repeat-x;
-  margin: -8px;
+  
 }
 
 .container {
