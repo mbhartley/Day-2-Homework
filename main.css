@@ -447,44 +447,86 @@ padding-left: 20px;
 .crew-offer {
  display: inline-block;
  width: 308px;
- height: 220px; 
+ height: 220px;
+ position: relative; 
 }
 
 .ruth-offer {
  display: inline-block;
  width: 308px;
- height: 220px; 
+ height: 220px;
+ position: relative;  
 }
 
 .twisted-offer {
  display: inline-block;
  width: 308px;
- height: 220px; 
+ height: 220px;
+ position: relative;  
 }
 
 .crew-offer-bar {
- border: 1px solid rgb(0, 0, 0);
  height: 60px;
- width: 300px;
+ width: 200px;
  font-size: 14px;
  color: rgb(64, 64, 64);
+ display: inline-block;
 }
 
 .ruth-offer-bar {
- border: 1px solid rgb(0, 0, 0);
  height: 60px;
- width: 300px;
+ width: 200px;
  font-size: 14px;
  color: rgb(64, 64, 64);
+ display: inline-block;
  }
 
  .twisted-offer-bar {
- border: 1px solid rgb(0, 0, 0);
  height: 60px;
- width: 300px;
+ width: 200px;
  font-size: 14px;
  color: rgb(64, 64, 64);
+ display: inline-block;
 }
+
+.offer-counter {
+  position: relative;
+  margin: 0 auto;
+  font-size: 12px;
+  display: inline-block;
+  margin-top: 5px;
+}
+
+
+.crew-offer-title, .ruth-offer-title, .twisted-offer-title {
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+.crew-offer-tracker, .ruth-offer-tracker, .twisted-offer-tracker {
+  font-size: 10px;
+  color: rgb(143, 143, 143);
+
+}
+
+
+.offer-counter-clock {
+  height: 24px;
+  width: 24px;
+  display: inline-block;
+}
+
+.offer-countdown {
+  display: inline-block;
+  margin-top: 4px;
+
+}
+
+.line-break {
+  margin-top: 58px;
+}
+
+
 
 
 
