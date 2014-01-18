@@ -86,13 +86,20 @@ body * {
 
 /*BANNER END*/
 
-/*MAIN BEGIN*/
+/*MAIN LEFT BEGIN*/
+
+.left {
+  width: 640px;
+  height: 540px;
+  display: inline-block; 
+}
 
 .main {
   background-color: rgb(242, 240, 236);
   position: relative;
   height: 540px;
   padding-top: 40px;
+  margin: 0 auto;
 }
 
 .photo-banner {
@@ -103,14 +110,11 @@ body * {
   display: block;
 }
 
-
-
 .concert-photo {
   background-image: url("images/concert-image.jpg");
   width: 640px;
   height: 380px;
-  
-
+  display: inline-block;
 }
 
 .U2 {
@@ -118,15 +122,15 @@ body * {
   position: relative;
   line-height: 60px;
   margin-left: 20px;
-
 }
 
 .clock{
   margin-top: 18px;
   margin-left: 256px;
+  height: 24px;
 }
 
-.counter {
+.count-down {
   font-size: 14px;
   position: absolute;
   margin-left:4px;
@@ -137,6 +141,7 @@ body * {
   background-color: rgb(208, 205, 199);
   width: 640px;
   height: 90px;
+  display: inline-block;
 }
 
 .announcement {
@@ -152,6 +157,7 @@ body * {
  .ribbon-wrapper {
   position: relative;
 }
+
   .ribbon-front {
   font-size: 14px;
   background-color: #f9ce00;  height: 32px;
@@ -248,10 +254,125 @@ padding-left: 20px;
   width: 530px;
   margin-left: 42px;
   margin-top: 10px;
+  display: inline-block;
+}
+
+.arrow {
+  height: 45px;
+  transition: all ease 1s;
+}
+
+.arrow:hover {
+  -webkit-transform: rotate(360deg);
+}
+
+/*MAIN LEFT END*/
+
+/*MAIN RIGHT BEGIN*/
+
+.right {
+  width: 303px;
+  height: 538px;
+  display: inline-block;
+}
+
+.box-counter {
+  background-color: rgb(208, 205, 199);
+  margin-left: 10px;
+  color: rgb(255, 255, 255);
+  font-size: 62px;
+  height: 110px;
+  width: 126px;
+  display: inline-block; 
+}
+
+.box-goal {
+  background-color: rgb(208, 205, 199);
+  margin-left: 10px;
+  color: rgb(255, 255, 255);
+  font-size: 62px;
+  height: 110px;
+  width: 126px;
+  display: inline-block; 
+}
+
+.counter {
+  text-shadow: 1px 1px 1px rgb(166, 163, 158);
+  text-align: center; 
+  padding-top: 20px;
+}
+
+.box-counter-name {
+  text-transform: uppercase;
+  font-size: 12px;
+  color: rgb(65, 65, 65);
+  text-shadow: 1px 1px 1px rgb(242, 240, 236);
+  display: inline-block;
+  margin-left: 10px;
+  background-color: rgb(181, 174, 163);
+  width: 126px;
+  height: 24px;
+  padding-top: 9px;
+  text-align: center; 
+}
+
+.goal {
+  text-shadow: 1px 1px 1px rgb(166, 163, 158);
+  text-align: center;
+  padding-top: 20px;
+}
+
+.box-goal-name {
+  text-transform: uppercase;
+  font-size: 12px;
+  color: rgb(65, 65, 65);
+  text-shadow: 1px 1px 1px rgb(242, 240, 236);
+  display: inline-block;
+  margin-left: 10px;
+  background-color: rgb(181, 174, 163);
+  width: 126px;
+  height: 24px;
+  padding-top: 9px;
+  text-align: center;
+}
+
+.join-button {
+  font-size: 22px;
+  color: rgb(255, 255, 255);
+  width: 272px;
+  height: 60px;
+  border: 1px solid #CB9000;
+  margin-left: 10px;
+  text-align: center;
+  line-height: 60px;
+  background: #fbd328; /* Old browsers */
+  background: -moz-linear-gradient(top,  #fbd328 0%, #db9723 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fbd328), color-stop(100%,#db9723)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #fbd328 0%,#db9723 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #fbd328 0%,#db9723 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #fbd328 0%,#db9723 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #fbd328 0%,#db9723 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbd328', endColorstr='#db9723',GradientType=0 ); /* IE6-9 */
+  border-radius: 4px;
+  box-shadow: 0px 5px 3px -3px rgba(200, 200, 200, 1);
 }
 
 
+
+
+
+
+
+
+
 /*ribbon end*/
+
+/*RIGHT SIDE BEGIN*/
+
+
+
+
+
 
 
 
