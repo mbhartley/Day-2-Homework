@@ -435,6 +435,58 @@ padding-left: 20px;
   margin-top: 8px;
  }
 
+.offers {
+ position: relative;
+ margin-right: auto;
+ margin-left: auto;
+ margin-top: 40px;
+ width: 960px;
+}
+
+
+.crew-offer {
+ display: inline-block;
+ width: 308px;
+ height: 220px; 
+}
+
+.ruth-offer {
+ display: inline-block;
+ width: 308px;
+ height: 220px; 
+}
+
+.twisted-offer {
+ display: inline-block;
+ width: 308px;
+ height: 220px; 
+}
+
+.crew-offer-bar {
+ border: 1px solid rgb(0, 0, 0);
+ height: 60px;
+ width: 300px;
+ font-size: 14px;
+ color: rgb(64, 64, 64);
+}
+
+.ruth-offer-bar {
+ border: 1px solid rgb(0, 0, 0);
+ height: 60px;
+ width: 300px;
+ font-size: 14px;
+ color: rgb(64, 64, 64);
+ }
+
+ .twisted-offer-bar {
+ border: 1px solid rgb(0, 0, 0);
+ height: 60px;
+ width: 300px;
+ font-size: 14px;
+ color: rgb(64, 64, 64);
+}
+
+
 
 
 
