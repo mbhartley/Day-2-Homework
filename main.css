@@ -588,6 +588,7 @@ td {
 
 .categories {
   width: 300px;
+  display: inline-block;
 }
 
 .categories h1 {
@@ -615,14 +616,45 @@ td {
   margin-top: 2px;
   border-radius: 4px;
   border: 1px solid rgb(42, 42, 42);
-  box-shadow: inset 0 2px 0 -1px rgb(128, 128, 127);
 }
 
 .music, .charity, .fashion, .design, .art, .games, .technology, .film, .sports, .theater {
   margin-top: 12px;
 }
 
+.connect {
+  width: 300px;
+  margin-left: 30px;
+  display: inline-block;
+}
 
+.connect h1 {
+  color: #ffffff;
+  font-size: 16px;
+  padding-top: 14px; 
+}
+
+.sign-up {
+  font-size: 12px;
+  color: rgb(213, 213, 213);
+  width: 200px;
+}
+
+.enter-email {
+  width: 220px;
+  height: 40px;
+  font-size: 16px; 
+  margin-top: 20px;
+  border-radius: 4px;
+  text-align: left;
+  padding-left: 8px; 
+  box-shadow: inset 0 1px 8px -1px rgb(128, 128, 127);
+  color: rgb(181, 181, 181);
+  background-image: url("images/check.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 50px, 50px;
+}
 
 
 
