@@ -526,6 +526,42 @@ padding-left: 20px;
   margin-top: 58px;
 }
 
+.coming-events h1 {
+  font-size: 22px;
+  margin-top: -4px;
+}
+
+.mob-event-dates {
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-size: 16px;
+  text-align: left;
+}
+
+td, th {
+  border-bottom: 1px solid black;
+  border-spacing: 0;
+  padding-right: 44px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+
+}
+
+tr:last-child td {
+  border: 0;
+}
+
+tr:last-child th {
+  border: 0;
+}
+
+td {
+  padding-left: 8px;
+}
+
+.date {
+  padding-right: 0;
+}
 
 
 
