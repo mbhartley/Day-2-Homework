@@ -616,6 +616,7 @@ td {
   margin-top: 2px;
   border-radius: 4px;
   border: 1px solid rgb(42, 42, 42);
+  box-shadow: inset 0 1px 0px 0 rgb(213, 213, 213);
 }
 
 .music, .charity, .fashion, .design, .art, .games, .technology, .film, .sports, .theater {
@@ -628,7 +629,7 @@ td {
   display: inline-block;
   position: relative;
   margin-top: 12px;
-  margin-left:80px;
+  margin-left: 80px;
 }
 
 .connect-header {
@@ -728,6 +729,77 @@ td {
   margin-top: 12px; 
   margin-left: -8px; 
 }
+
+.how-works {
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  width: 200px;
+  height: 46px;
+  border: 1px solid #CB9000;
+  margin-left: 10px;
+  margin-top: 18px;
+  text-align: center;
+  line-height: 48px;
+  background: #fbd328; /* Old browsers */
+  background: -moz-linear-gradient(top,  #fbd328 0%, #db9723 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fbd328), color-stop(100%,#db9723)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #fbd328 0%,#db9723 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #fbd328 0%,#db9723 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #fbd328 0%,#db9723 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #fbd328 0%,#db9723 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbd328', endColorstr='#db9723',GradientType=0 ); /* IE6-9 */
+  border-radius: 4px;
+  box-shadow: 0px 3px 3px -3px rgba(0, 0, 0, 1);
+  z-index: 2;
+  position: absolute;
+}
+
+.contact {
+  position: relative;
+  height: 331px;
+}
+
+.question{
+  font-size: 18px;
+  display: inline-block;
+  margin-top: 86px;
+  margin-left: 10px;
+  color: #ffffff;
+}
+
+.solicit-contact {
+  font-size: 10px;
+  display: inline-block;
+  margin-top: 22px;
+  width: 164px;
+  margin-left: 10px;
+  color: #ffffff;
+}
+
+.email-box {
+  height: 36px;
+  width: 120px;
+  background-color: rgb(99, 99, 98);
+  border-radius: 4px;
+  display: inline-block;
+  font-size: 18px;
+  margin-top: 12px;
+  margin-left: 12px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 36px;
+  box-shadow: inset 0 1px 0px 0 rgb(213, 213, 213);
+  color: rgb(255, 255, 255);
+}
+
+.copyright {
+  font-size:  10px;
+}
+
+.rights {
+  font-size: 10px;
+}
+
 
 
 
