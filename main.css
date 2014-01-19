@@ -623,21 +623,27 @@ td {
 }
 
 .connect {
-  width: 300px;
+  width: 280px;
   margin-left: 30px;
   display: inline-block;
+  position: relative;
+  margin-top: 12px;
+  margin-left:80px;
 }
 
-.connect h1 {
+.connect-header {
   color: #ffffff;
   font-size: 16px;
-  padding-top: 14px; 
+  padding-top: 14px;
+  position: relative;
+  margin: 0 auto;
 }
 
 .sign-up {
   font-size: 12px;
   color: rgb(213, 213, 213);
   width: 200px;
+  margin-top: 12px;
 }
 
 .enter-email {
@@ -656,11 +662,72 @@ td {
   background-size: 50px, 50px;
 }
 
+.facebook {
+  position: relative;
+  margin: 0 auto;
+  margin-top: 18px;
+}
 
+.facebook-icon {
+  display: inline-block;
+}
 
+.like-us {
+  font-size: 14px;
+  display: inline-block;
+  margin-top: 6px;
+}
 
+.twitter-icon {
+  display: inline-block;
+  margin-top: -14px;
+}
 
+.follow {
+  font-size: 14px;
+  display: inline-block;
+  margin-top: -10px;
+}
 
+.google-icon {
+  display: inline-block;
+  margin-top: -14px;
+}
+
+.plus-one {
+  font-size: 14px;
+  display: inline-block;
+  margin-top: -10px;  
+}
+
+.break {
+  margin-top: -20px;
+  width: 230px;
+  margin-left: 0;
+  border: 0;
+  color: rgb(42, 42, 42);
+  height: 1px;
+  background-color: rgb(42, 42, 42);
+}
+
+.break2 {
+  margin-top: -34px;
+  width: 230px;
+  margin-left: 0;
+  border: 0;
+  color: rgb(42, 42, 42);
+  height: 1px;
+  background-color: rgb(42, 42, 42);
+}
+
+.contact {
+  width: 280px;
+  margin-left: 30px;
+  display: inline-block;
+  position: relative;
+  margin-top: 12px; 
+  margin-left: -8px; 
+}
 
 
 
