@@ -793,11 +793,16 @@ td {
 }
 
 .copyright {
-  font-size:  10px;
+  font-size:  12px;
+  
 }
 
 .rights {
-  font-size: 10px;
+  font-size: 12px;
+}
+
+.copyright {
+  margin-top: 30px;
 }
 
 
