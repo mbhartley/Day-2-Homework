@@ -1,8 +1,9 @@
 body {
   font-family: 'Didactic Gothic', sans-serif;
-  letter-spacing: 1;
+  letter-spacing: 2;
   margin: 0;
   padding: 0;
+  font-weight: 300;
 }
 
 body * {
@@ -619,7 +620,7 @@ td {
   font-size: 22px;
   color: rgb(39, 109, 158);
   margin-left: 4px;
-  margin-top: -20-px;
+  margin-top: -20px;
   border-radius: 6px;
   text-shadow: 0.5px 0.5px 1px white;
   background: rgb(225,224,220); /* Old browsers */
