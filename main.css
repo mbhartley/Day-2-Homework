@@ -566,14 +566,74 @@ td {
 }
 
 .mob-starter {
-  width: 300px;
-  height: 210px;
+  width: 280px;
+  height: 202px;
   display: inline-block;
-  margin-top: -38px;
+  margin-top: -26px;
   background-color: rgb(208, 205, 199);
   padding-left: 8px;
   margin-bottom: 64px;
+  position: absolute;
+  margin-left: 28px;
+  text-align: center;
 }
+
+.start-mob{
+  font-size: 24px;
+  margin-top: 24px;
+  margin-left: -10px;
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 1px rgb(166, 163, 158);
+  position: relative;
+}
+ .button-img {
+  margin-left: 18px;
+  margin-top: -14px;
+  display: block;
+ }
+
+ .upload-image, .write-message, .upload-reward {
+  font-size: 12px;
+  width: 80px;
+  text-align: center;
+  display: inline-block;
+ }
+
+.upload-image{
+  margin-left: -2px;
+}
+
+ .write-message {
+  margin-left: 8px;
+ }
+
+ .upload-reward {
+  margin-left: 8px;
+ }
+
+ .start-mob-button {
+  width: 260px;
+  height: 54px;
+  border: 1px solid rgb(106, 104, 100);
+  line-height: 54px;
+  font-size: 22px;
+  color: rgb(39, 109, 158);
+  margin-left: 4px;
+  margin-top: -20-px;
+  border-radius: 6px;
+  text-shadow: 0.5px 0.5px 1px white;
+  background: rgb(225,224,220); /* Old browsers */
+background: -moz-linear-gradient(top,  rgb(225,224,220) 0%, rgb(197,194,187) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(225,224,220)), color-stop(100%,rgb(197,194,187))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgb(225,224,220) 0%,rgb(197,194,187) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgb(225,224,220) 0%,rgb(197,194,187) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgb(225,224,220) 0%,rgb(197,194,187) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgb(225,224,220) 0%,rgb(197,194,187) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e1e0dc', endColorstr='#c5c2bb',GradientType=0 ); /* IE6-9 */
+
+
+
+ }
 
 /*COMING EVENTS END*/
 
@@ -584,6 +644,7 @@ td {
   height: 350px;
   position: relative;
   margin: 0 auto;
+  margin-top: 70px;
 }
 
 .categories {
